@@ -1,0 +1,218 @@
+import '@fortawesome/fontawesome-free/css/all.min.css'
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navnarr {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 10px;
+    padding-left: 60px;
+    font-family: Sans-Serif;
+}
+
+.logoalign {
+    display: flex;
+    align-items: center;
+}
+
+.headd {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(112, 111, 195);
+}
+
+.logoimg {
+    height: 35px;
+    padding-right: 10px;
+}
+
+.herosection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #edf0ff;
+    height: 70vh;
+    padding: 100px;
+}
+
+.headinghero {
+    color: #0061FF;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.heriimag {
+    height: 80vh;
+    padding-left: 150px;
+}
+
+.paragraphhero {
+    color: #717171;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.startbtn {
+    background-color: transparent;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-width: 1px;
+    border-radius: 5px;
+    color: #717171;
+    border-color: #717171;
+}
+
+.infosection {
+    padding: 100px;
+    background-color: #e1ecff;
+    text-align: center;
+}
+
+.firstrow {
+    display: flex;
+}
+
+.head2 {
+    color: #000000;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+.para2 {
+    color: #717171;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.excelcard {
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+
+}
+
+.cardhead {
+    color: #000000;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.cardpara {
+    color: #717171;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.readyinfo {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: #263238;
+}
+
+.readyhead {
+    color: #ffffff;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 1000;
+    /* text-decoration: underline; */
+}
+
+.readysecondhead {
+    color: #ffffff;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 800;
+    margin-bottom: 20px;
+    
+}
+
+.paragraphinfo {
+    color: #d2d2d2;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+.explorebtn {
+    background-color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* border-width: 1px; */
+    border: none;
+    border-radius: 5px;
+    color: #000000;
+    /* border-color: #000000; */
+    margin-top: 20px;
+}
+
+.contactsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e1ecff;
+    padding: 100px;
+}
+
+.linesection{
+    display: flex;
+}
+
+.nav-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-button {
+  background-color: white;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+.login-button:hover {
+  background-color: #f0f0f0;
+}
+
+.signup-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.signup-button:hover {
+  background-color: #0056b3;
+}
+
+
+.footer{
+    text-align: center;
+    background-color: #263238;
+    padding: 15px;
+}
